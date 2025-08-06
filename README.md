@@ -26,7 +26,7 @@ CREATE TABLE Students (
     age NUMBER,
     email VARCHAR2(30),
     course VARCHAR2(15) DEFAULT 'Undeclared'
-);
+);```
 
 ---
 
