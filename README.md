@@ -9,11 +9,12 @@ Oracle SQL
 ---
 
 ## 📁 Deliverables
-- A `.sql` file containing:
+- A file containing:
+  -  Table creation
   - `INSERT INTO` statements with/without nulls
   - `UPDATE` statements with `WHERE` conditions
   - `DELETE` statements with `WHERE` conditions
-  - Table creation and optional `SELECT` query for verification
+  - `SELECT` query for verification
 
 ---
 
@@ -26,7 +27,8 @@ CREATE TABLE Students (
     age NUMBER,
     email VARCHAR2(30),
     course VARCHAR2(15) DEFAULT 'Undeclared'
-);```
+);
+```
 
 ---
 
